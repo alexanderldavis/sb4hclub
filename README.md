@@ -4,5 +4,5 @@ This is the GitHub Repository where the 4-H Website will forever live in glory! 
 
 All around great work so far! I hope this makes it simpler for everyone (just don't forget to upload the html page via FileZilla to the server when you are done playing with it... GitHub does not update the server with the newer file!)
 
-Thanks for the hard work!
+Thanks for the hard work!<br>
 Alexander
