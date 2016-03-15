@@ -1,5 +1,4 @@
-# sb4hclub
-All html files for the San Bruno 4-H Club website.
+# San Bruno 4-H Club
 Hello 4-H Webmasters!
 This is the GitHub Repository where the 4-H Website will forever live in glory! GitHub is a very powerful tool that allows us to make changes to the same document online, very much like a Google Doc. This program will allow us to directly contribute to the website, as well as see what changes are made, when, and by whom they are made!
 
