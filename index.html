@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>San Bruno 4-H Club</title>
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+  <link type="text/css" rel="stylesheet" href="./css/froala_blocks.css">
+  <link type="text/css" rel="stylesheet" href="./css/index.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js" ></script>
+  <style>
+    * {
+      font-family: 'Open Sans Condensed', sans-serif;
+    }
+    body {
+      background-color:#2d313c;
+    }
+    .parallax {
+		/* min-height: 500px; */
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #test {
+    animation: fadein 3s;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+    -o-animation: fadein 3s; /* Opera */
+    }
+    @keyframes fadein {
+        from {opacity:0;} to {opacity: 1;}}
+    @-moz-keyframes fadein { /* Firefox */
+        from {opacity:0;} to {opacity: 1;}}
+    @-webkit-keyframes fadein { /* Safari and Chrome */
+        from {opacity:0;} to {opacity: 1;}}
+    @-o-keyframes fadein { /* Opera */
+        from {opacity:0;} to {opacity: 1;}}
+  </style>
+  <!--  This script allows for smooth scrolling when an on-page link is clicked  -->
+  <script>
+    $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+        if (this.hash !== "") {
+          event.preventDefault();
+          var hash = this.hash;
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+            window.location.hash = hash;
+          });
+        }
+      });
+    });
+  </script>
+  <link rel="stylesheet" type="text/css" href="css/default.css" />
+  <link rel="stylesheet" type="text/css" href="css/component.css" />
+  <script src="js/modernizr.custom.js"></script>
+
+
+</head>
+<body class="cbp-spmenu-push" id="test">
+  <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
+    <br><br><br>
+    <a href="#home">Home</a>
+    <a href="#contact">Contact</a>
+    <a href="#calendar">Calendar</a>
+    <a href="#forms">Documents</a>
+    <a href="#map">Photos</a>
+    <a href="#record">Record Book</a>
+    <a href="#join">Join Us</a>
+  </nav>
+  <header class="bg-dark">
+    <div class="container">
+      <nav class="navbar fixed-top">
+        <button class="btn btn-white ml-md-1" id="showLeftPush">Menu</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <section class="fdb-block bg-dark fdb-viewport parallax" style="height:100vh; background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(./imgs/banner.jpg);">
+    <div class="container align-items-center justify-content-center d-flex">
+      <div class="row justify-content-center text-center">
+        <div class="col-16 col-md-14 col-lg-12">
+          <hr class="trans--grow hr1">
+            <h1>SAN BRUNO 4-H CLUB</h1>
+          <hr class="trans--grow hr2">
+          <br><br>
+          <h3>THE 4-H MOTTO IS “LEARN BY DOING,” AND OUR MEMBERS DO JUST THAT.</h3>
+          <br><br><br>
+          <p class="mt-5"><a href="#about" class="btn btn-white btn-empty ml-md-1">Learn More!</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="fdb-block bg-custom-blue" id="about">
+    <div class="container" >
+      <div class="row justify-content-center">
+        <div class="col col-md-8 text-center">
+          <h1>WHAT DO 4-H MEMBERS DO?</h1>
+          <hr>
+          <p class="text-h3">They raise prize winning livestock, grow delicious vegetables, produce and
+            perform dramatic productions, bake amazing cakes and cookies, help in
+            the community, and participate in (and win!) robotics competitions. Head,
+            Heart, Hands, and Health are the four Hs in 4-H, and these values are
+            present in all our projects and activities: Head, Heart, Hands, and
+            Health.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="fdb-block bg-custom-green">
+    <div class="container">
+      <div class="row justify-content-center pb-5">
+        <div class="col-12 text-center">
+          <h1>About 4-H</h1>
+        </div>
+      </div>
+
+      <div class="row text-left align-items-center pt-5 pb-md-5">
+        <div class="col-4 col-md-5">
+          <img alt="image" class="img-fluid" src="./imgs/clubmembers.jpg">
+        </div>
+
+        <div class="col-12 col-md-5 m-md-auto">
+          <h2><strong>History</strong></h2>
+          <p class="text-h3">Since its humble beginnings more than 100 years ago, 4-H has grown to become the nation’s largest youth development organization. The 4-H idea is simple: help young people and their families gain the skills they need to be proactive forces in their communities and develop ideas for a more innovative economy. That idea was the catalyst to begin the 4-H movement, and those values continue today. As one of the first youth development organizations in America, 4-H opened the door for young people to learn leadership skills and explore ways to give back. 4-H revolutionized how youth connected to practical, hands-on learning experiences while outside of the classroom.</p>
+
+        </div>
+      </div>
+
+      <div class="row text-left align-items-center pt-5 pb-md-5">
+        <div class="col-4 col-md-5 m-md-auto order-md-5">
+          <img alt="image" class="img-fluid" src="./imgs/concession.jpg">
+        </div>
+
+        <div class="col-12 col-md-5">
+          <h2><strong>4-H in San Bruno</strong></h2>
+          <p class="text-h3">The San Bruno 4-H club is very active about participating in community events. We can be seen at Operation Clean Sweep in May, the Posy Parade in June, and Food and Clothing drives throughout the year. We also encourage all our members to exhibit project accomplishments in the San Mateo County Fair every June and many of our projects (be they animal exhibits, or clothing or artwork) can be seen on display in the large animal barn and 4-H exhibit hall.</p>
+        </div>
+      </div>
+
+      <div class="row text-left align-items-center pt-5">
+        <div class="col-4 col-md-5">
+          <img alt="image" class="img-fluid" src="./imgs/img_square_2.svg">
+        </div>
+
+        <div class="col-12 col-md-5 m-md-auto">
+          <h2><strong>How Does 4-H Work?</strong></h2>
+          <p class="text-h3">The San Bruno 4-H Club has a small farm and club house in San Bruno. The club offers hands-on projects and activities, directed by adult volunteers, for youth ages 5–19. Each youth member enrolls in the projects they are interested in, plus they attend monthly general meetings, fun days, farm clean-up days, and other organized club activities. A unique aspect of 4-H is that the club is run by the youth officers and members, so members learn leadership, good citizenship, and active participation in governance.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- This script takes care of the line animation -->
+  <script type="text/javascript">
+     jQuery(document).ready(function($){
+     setTimeout(function(){
+         $('.trans--grow').addClass('grow');
+     }, 275);
+    });
+  </script>
+
+  <!-- This script takes care of the left side push menu -->
+  <script src="js/classie.js"></script>
+  <script type="text/javascript">
+      var menuLeft = document.getElementById( 'cbp-spmenu-s1' ),
+        showRightPush = document.getElementById( 'showRightPush' ),
+        body = document.body;
+      showLeftPush.onclick = function() {
+        classie.toggle( body, 'cbp-spmenu-push-toright' );
+
+        classie.toggle( menuLeft, 'cbp-spmenu-open' );
+      };
+  </script>
+</body>
+</html>
