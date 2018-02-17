@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>San Bruno 4-H Club</title>
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+  <link type="text/css" rel="stylesheet" href="./css/froala_blocks.css">
+  <link type="text/css" rel="stylesheet" href="./css/index.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js" ></script>
+  <style>
+    * {
+      font-family: 'Open Sans Condensed', sans-serif;
+    }
+    body {
+      background-color:#2d313c;
+    }
+    .parallax {
+    /* min-height: 500px; */
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #test {
+    animation: fadein 3s;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+    -o-animation: fadein 3s; /* Opera */
+    }
+    @keyframes fadein {
+        from {opacity:0;} to {opacity: 1;}}
+    @-moz-keyframes fadein { /* Firefox */
+        from {opacity:0;} to {opacity: 1;}}
+    @-webkit-keyframes fadein { /* Safari and Chrome */
+        from {opacity:0;} to {opacity: 1;}}
+    @-o-keyframes fadein { /* Opera */
+        from {opacity:0;} to {opacity: 1;}}
+  </style>
+  <!--  This script allows for smooth scrolling when an on-page link is clicked  -->
+  <script>
+    $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+        if (this.hash !== "") {
+          event.preventDefault();
+          var hash = this.hash;
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+            window.location.hash = hash;
+          });
+        }
+      });
+    });
+  </script>
+  <link rel="stylesheet" type="text/css" href="css/default.css" />
+  <link rel="stylesheet" type="text/css" href="css/component.css" />
+  <script src="js/modernizr.custom.js"></script>
+
+
+</head>
+<body class="cbp-spmenu-push" id="test">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
+    <br><br><br>
+    <a href="index.html">Home</a>
+    <a href="contact.html">Contact</a>
+    <a href="#calendar">Calendar</a>
+    <a href="#forms">Documents</a>
+    <a href="#map">Photos</a>
+    <a href="#record">Record Book</a>
+    <a href="#join">Join Us</a>
+  </nav>
+  <header class="bg-dark">
+    <div class="container">
+      <nav class="navbar fixed-top">
+        <button class="btn btn-white ml-md-1" id="showLeftPush">Menu</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+    <section class="fdb-block bg-dark parallax" style="background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(./imgs/banner.jpg);">
+      <div class="container">
+        <div class="row text-center justify-content-center">
+          <div class="col-12 col-md-8 col-lg-7">
+            <h1>Contact Us</h1>
+            <h2>We'd love to hear from you!</h2>
+            <!-- <hr> -->
+            <br><br>
+            <!-- <a href="https://www.facebook.com/sb4hclub/"><i class="fab fa-facebook fa-5x"></i></a>
+            <a href="mailto:sb4hclub@gmail.com"><i class="fas fa-envelope-square fa-5x"></i></a> -->
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class="fdb-block bg-custom-blue">
+      <div class="container">
+        <div class="row">
+          <div class="col text-left">
+            <h2>How to Reach Us</h2>
+
+            <h3>The best way to contact us is through <a target="_blank" href="https://www.facebook.com/sb4hclub/"><u>Facebook</u></a>, by <a target="_blank" href="mailto:sb4hclub@gmail.com"><u>email</u></a> (sb4hclub@gmail.com), or by calling 1-(650)-200-0448.
+              The San Bruno 4-H Club meets the second Wednesday of each month at the San Bruno 4-H Clubhouse. Meetings begin at 7PM and run approximately 1 hour.</h3>
+
+            <h3>You are welcome to attend any general meeting. There is a raffle and valuable information about 4-H. You may also attend one of our scheduled Open Houses.</h3>
+
+            <hr>
+            <h2>San Mateo County</h2>
+            <h3>Learn more about the San Mateo County 4-H program by visiting their <a target="_blank" href="http://ucanr.edu/sites/smsf4h/">website</a>. Or, contact us above to get more information about how to join. We usually process requests in under 24 hours.</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="fdb-block footer-small bg-dark">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <p>&copy; 2018 San Bruno 4-H Club. Maintained by Ryan O. and Adam Z.</p>
+            <p>Design by Alexander D.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- This script takes care of the left side push menu -->
+    <script src="js/classie.js"></script>
+    <script type="text/javascript">
+        var menuLeft = document.getElementById( 'cbp-spmenu-s1' ),
+          showRightPush = document.getElementById( 'showRightPush' ),
+          body = document.body;
+        showLeftPush.onclick = function() {
+          classie.toggle( body, 'cbp-spmenu-push-toright' );
+
+          classie.toggle( menuLeft, 'cbp-spmenu-open' );
+        };
+    </script>
+  </body>
+</html>

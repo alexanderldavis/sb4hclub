@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My Awesome Website!</title>
+
+    <!-- This brings in the bootstrap css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <!-- End of bootstrap -->
+
+    <!-- This link element links sample.html (this document) to sample.css (background color, etc...) -->
+    <link rel="stylesheet" href="sample.css">
+    <!-- End of link element -->
+
+    <!-- This brings in the special font from google. -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+    <style>
+      * {
+        font-family: 'Roboto';
+      }
+    </style>
+
+
+  </head>
+  <body>
+    <h1>My</h1>
+    <h2>Awesome</h2>
+    <h3>Website!</h3>
+    <p>By Alexander Davis</p>
+
+    <hr>
+
+    <p>This down here is a picture of a penguin:</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/South_Shetland-2016-Deception_Island%E2%80%93Chinstrap_penguin_%28Pygoscelis_antarctica%29_04.jpg/1200px-South_Shetland-2016-Deception_Island%E2%80%93Chinstrap_penguin_%28Pygoscelis_antarctica%29_04.jpg" alt="Picture of a Penguin">
+
+    <p>This down here is a gif of a penguin:</p>
+    <img src="https://img.buzzfeed.com/buzzfeed-static/static/enhanced/web04/2012/1/20/14/anigif_enhanced-buzz-21524-1327086289-26.gif?downsize=715:*&output-format=auto&output-quality=auto" alt="Gif of a penguin">
+
+    <hr>
+
+    <p>This is a form that sends an email to me!</p>
+    <!-- This is a comment, and it's here to tell you that this form uses https://formspree.io/ to send you an Email! -->
+    <form action="https://formspree.io/alexander.davis54@gmail.com" class="form-group" method="POST">
+      <input class="form-control" type="text" name="name" value="" placeholder="Name Here">
+      <input class="form-control" type="email" name="_replyto" value="" placeholder="Your Email Here">
+      <input class="form-control" type="text" name="message" value="" placeholder="Your Message Here">
+      <input class="form-control" type="submit" value="Send">
+    </form>
+
+  </body>
+</html>
