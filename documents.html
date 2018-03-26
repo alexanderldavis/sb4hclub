@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>San Bruno 4-H Club</title>
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+  <link type="text/css" rel="stylesheet" href="./css/froala_blocks.css">
+  <link type="text/css" rel="stylesheet" href="./css/index.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js" ></script>
+  <style>
+    * {
+      font-family: 'Open Sans Condensed', sans-serif;
+    }
+    body {
+      background-color:#2d313c;
+    }
+    .parallax {
+    /* min-height: 500px; */
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #test {
+    animation: fadein 3s;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+    -o-animation: fadein 3s; /* Opera */
+    }
+    @keyframes fadein {
+        from {opacity:0;} to {opacity: 1;}}
+    @-moz-keyframes fadein { /* Firefox */
+        from {opacity:0;} to {opacity: 1;}}
+    @-webkit-keyframes fadein { /* Safari and Chrome */
+        from {opacity:0;} to {opacity: 1;}}
+    @-o-keyframes fadein { /* Opera */
+        from {opacity:0;} to {opacity: 1;}}
+    .googleDrive{
+          position: relative;
+          height: 0;
+          width: 80%;
+          margin:auto;
+          padding-bottom: 50%;
+          background-color: rgb(255,255,255);
+    }
+
+    .googleDrive iframe{
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+    }
+  </style>
+  <style>
+    .dropbtn {
+        background-color: #4CAF50;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown-content a:hover {background-color: #ddd}
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .dropdown:hover .dropbtn {
+        background-color: #3e8e41;
+    }
+    </style>
+  <!--  This script allows for smooth scrolling when an on-page link is clicked  -->
+  <script>
+    $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+        if (this.hash !== "") {
+          event.preventDefault();
+          var hash = this.hash;
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+            window.location.hash = hash;
+          });
+        }
+      });
+    });
+  </script>
+  <link rel="stylesheet" type="text/css" href="css/default.css" />
+  <link rel="stylesheet" type="text/css" href="css/component.css" />
+  <script src="js/modernizr.custom.js"></script>
+
+
+</head>
+<body class="cbp-spmenu-push" id="test">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
+    <br><br><br>
+    <a href="index.html">Home</a>
+    <a href="contact.html">Contact</a>
+    <a href="calendar.html">Calendar</a>
+    <a href="documents.html">Documents</a>
+    <a href="photos.html">Photos</a>
+    <a target="_blank" href="http://www.sanbruno4h.com/index.html">Join Us!</a>
+  </nav>
+  <header class="bg-dark">
+    <div class="container">
+      <nav class="navbar fixed-top">
+        <button class="btn btn-white ml-md-1" id="showLeftPush">Menu</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+    <section class="fdb-block bg-dark parallax" style="background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(./imgs/banner.jpg);">
+      <div class="container">
+        <div class="row text-center justify-content-center">
+          <div class="col-12 col-md-8 col-lg-7">
+            <h1>Documents</h1>
+            <h2>From meeting agendas to newsletters, we have you covered!</h2>
+
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Quick Navigation
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="http://www.sanbruno4h.com/documents.html#agenda">Agendas</a>
+                <a class="dropdown-item" href="http://www.sanbruno4h.com/documents.html#newsletter">Newsletters</a>
+                <a class="dropdown-item" href="http://www.sanbruno4h.com/documents.html#record">Record Book Materials</a>
+                <a class="dropdown-item" href="http://www.sanbruno4h.com/documents.html#forms">Enrollment Forms</a>
+              </div>
+              <br><br><br><br>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class="fdb-block bg-custom-blue">
+      <div class="container">
+        <div class="row">
+          <div class="col text-left">
+            <h2 id="agenda">General Meeting Agendas</h2>
+            <h3>Here you can access monthly general meeting agendas. Use them to remember 4-H events when writing your record books!</h3>
+            <hr>
+            <div class="googleDrive">
+              <iframe src="https://drive.google.com/embeddedfolderview?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&id=1hHMTW8Zl0gwO_HGtW14uqoq0O-iwnEaC#list" frameborder="0"></iframe>
+            </div>
+            <br>
+            <h2 id="newsletter">Newsletters</h2>
+            <h3>Monthly newsletters are published here.</h3>
+            <hr>
+            <div class="googleDrive">
+              <iframe src="https://drive.google.com/embeddedfolderview?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&id=1qVrgfJrAQHpJ1yhvEh5hfNU7hQFItXAe#list" frameborder="0"></iframe>
+            </div>
+            <br>
+            <h2 id="record">Record Books</h2>
+            <h3>Instruction manuals and record book templates can be downloaded here.</h3>
+            <hr>
+            <div class="googleDrive">
+              <iframe src="https://drive.google.com/embeddedfolderview?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&id=1FHTYvmU69m3u3KG4uGE7X0gbpOntF522#list" frameborder="0"></iframe>
+            </div>
+            <br>
+            <h2 id="forms">Enrollment Forms and Important Documents</h2>
+            <h3>Important enrollment documents and adult volunteer forms are made available here.</h3>
+            <hr>
+            <div class="googleDrive">
+              <iframe src="https://drive.google.com/embeddedfolderview?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&id=1TqBfaxoCr3f7JTCTs96FEGXCS2TRJ0Tv#list" frameborder="0"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="fdb-block footer-small bg-dark">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <p>&copy; 2018 San Bruno 4-H Club. Maintained by Ryan O. and Adam Z.</p>
+            <p>Design by Alexander D.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- This script takes care of the left side push menu -->
+    <script src="js/classie.js"></script>
+    <script type="text/javascript">
+        var menuLeft = document.getElementById( 'cbp-spmenu-s1' ),
+          showRightPush = document.getElementById( 'showRightPush' ),
+          body = document.body;
+        showLeftPush.onclick = function() {
+          classie.toggle( body, 'cbp-spmenu-push-toright' );
+
+          classie.toggle( menuLeft, 'cbp-spmenu-open' );
+        };
+    </script>
+    <!-- jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+    <!-- Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+    <!-- Latest compiled and minified Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- Initialize Bootstrap functionality -->
+    <script>
+    // Initialize tooltip component
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+
+    // Initialize popover component
+    $(function () {
+      $('[data-toggle="popover"]').popover()
+    })
+    </script>
+  </body>
+</html>
